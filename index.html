@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdullah — Personal Card</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0f1923, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 20px;
+  }
+  .card {
+    background: rgba(255,255,255,0.07);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 24px;
+    padding: 40px 30px;
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  .avatar {
+    width: 110px; height: 110px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    background: linear-gradient(135deg, #2e7d32, #1565c0);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 48px;
+    border: 3px solid rgba(255,255,255,0.2);
+    object-fit: cover;
+  }
+  h1 { font-size: 28px; margin-bottom: 6px; letter-spacing: 1px; }
+  .role {
+    color: #7cb342;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+  .bio { color: #b8b8d0; font-size: 15px; margin-bottom: 26px; line-height: 1.7; }
+  .tags {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    justify-content: center; margin-bottom: 28px;
+  }
+  .tag {
+    background: rgba(124,179,66,0.15);
+    border: 1px solid rgba(124,179,66,0.4);
+    color: #aed581;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+  }
+  .links { display: flex; flex-direction: column; gap: 12px; }
+  .links a {
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 20px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    color: #fff; text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  .links a:hover {
+    background: rgba(255,255,255,0.14);
+    transform: translateY(-3px);
+    border-color: #7cb342;
+  }
+  .links .icon { font-size: 20px; width: 28px; text-align: center; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">👤</div>
+    <h1>Abdullah</h1>
+    <div class="role">Army Officer</div>
+    <p class="bio">Passionate about gaming and shooting. Always pushing limits and staying sharp.</p>
+    <div class="tags">
+      <span class="tag">🎮 Gaming</span>
+      <span class="tag">🎯 Shooting</span>
+    </div>
+    <div class="links">
+      <a href="https://www.instagram.com/b1od.a/" target="_blank" rel="noopener">
+        <span class="icon">📸</span> Instagram
+      </a>
+      <a href="https://www.tiktok.com/@boda_only_1" target="_blank" rel="noopener">
+        <span class="icon">🎵</span> TikTok
+      </a>
+      <a href="https://www.snapchat.com/add/b1od.a" target="_blank" rel="noopener">
+        <span class="icon">👻</span> Snapchat
+      </a>
+    </div>
+  </div>
+</body>
+</html>
